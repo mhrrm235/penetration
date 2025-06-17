@@ -1,0 +1,16 @@
+Fitur deteksi XSS, LFI, dan SQLi lebih dalam (multi-param, GET & POST) sudah ditambahkan:
+
+Ada checkbox baru di halaman utama untuk "XSS Deep", "LFI Deep", dan "SQLi Deep".
+Hasil scan deep akan tampil di halaman web dan PDF, lengkap dengan detail parameter, payload, dan status.
+Pengujian dilakukan pada beberapa parameter umum dan juga via POST.
+Aplikasi Anda kini mampu mellakukan pentest web yang lebih mendalam secara otomatis! Silakan coba fitur baru ini. Jika ingin menambah parameter, payload, atau metode lain, silakan informasikan.
+
+=======================================================================================================================
+
+fitur sub domain 
+
+Fitur scan otomatis ke banyak URL/subdomain sudah ditambahkan:
+
+Anda bisa meng-upload file .txt (satu URL/subdomain per baris) di halaman utama.
+Aplikasi akan melakukan scan ke semua URL dalam file tersebut, menampilkan hasil ringkasan (skor, kategori, detail) dalam tabel.
+Hasil scan massal juga otomatis tersimpan ke database riwayat.
